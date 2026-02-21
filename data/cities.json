@@ -35,54 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "7d32",
-      "cityName": "Cadalso de los Vidrios",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2026-02-21T13:58:14.207Z",
-      "notes": "",
-      "position": {
-        "lat": 40.3130432088809,
-        "lng": -4.416503906250001
-      }
-    },
-    {
-      "id": "cb2a",
-      "cityName": "Tighedouine",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2026-02-21T14:03:03.936Z",
-      "notes": "",
-      "position": {
-        "lat": 31.27855085894653,
-        "lng": -7.448730468750001
-      }
-    },
-    {
-      "id": "ee53",
-      "cityName": "Ligurian Sea Cetacean Sanctuary",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2026-02-21T14:06:51.610Z",
-      "notes": "",
-      "position": {
-        "lat": 43.6599240747891,
-        "lng": 7.514648437500001
-      }
-    },
-    {
-      "id": "532a",
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2026-02-21T14:08:57.127Z",
-      "notes": "Amazing city)",
-      "position": {
-        "lat": 51.50874245880335,
-        "lng": 0.15380859375000003
-      }
     }
   ]
 }
