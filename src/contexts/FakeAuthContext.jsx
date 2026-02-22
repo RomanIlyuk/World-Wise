@@ -12,23 +12,23 @@ const FAKE_USER = {
 function AuthProvider({ children }) {
   const initialState = {
     user: null,
-    isAuthenicated: false,
+    isAuthenticated: false,
   };
 
   function reducer(state, action) {
     switch (action.type) {
       case "login":
-        return { ...state, user: action.payload, isAuthenicated: true };
+        return { ...state, user: action.payload, isAuthenticated: true };
 
       case "logout":
-        return { ...state, user: null, isAuthenicated: false };
+        return { ...state, user: null, isAuthenticated: false };
 
       default:
         throw new Error("Unknown action");
     }
   }
 
-  const [{ user, isAuthenicated }, dispatch] = useReducer(
+  const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
     initialState,
   );
@@ -43,7 +43,7 @@ function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider value={{ user, isAuthenicated, login, logout }}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
